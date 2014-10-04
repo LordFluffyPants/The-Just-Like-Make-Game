@@ -9,17 +9,24 @@
 #ifndef MAP_H_
 #define MAP_H_
 
-using namespace std;
 
 class map{
 
 public:
 	map();
-	map(char[][]);
+	map(char**);
+	char returnSelectedLandTile();
+	char ** returnCurrentMap();
+
+
 
 
 
 private:
+	void populateCurrentMap();
+	void updateCurrentMap();
+	void populateUnitMap();
+	void updateUnitMap();
 
 
 };
