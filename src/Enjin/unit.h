@@ -26,10 +26,12 @@ public:
 	void updateArmor();
 	bool getFlying();
 	string getRace();
+	int getResourceCost();
 
 
 
 private:
+	int resourceCost;
 	string name;
 	int health;
 	int movementMax;
