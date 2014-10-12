@@ -8,7 +8,9 @@
 
 #ifndef MODESELECT_H_
 #define MODESELECT_H_
-
+enum menus{
+	CAMPAIGN, FREE_BATTLE, OPTIONS,
+};
 
 
 
