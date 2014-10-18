@@ -10,3 +10,4 @@ To Determine and understand version number of projects and files
 MAJOR UPDATES.XX (Fixing Big Issues)
 X.MINOR UPDATES   (Fixing Minor bugs / issues / enchancements)
 
+SFML setup template:  http://en.sfml-dev.org/forums/index.php?topic=13010.msg91083#msg91083
