@@ -2,7 +2,8 @@
  * building.h
  *
  *  Created on: Oct 7, 2014
- *      Author: jake
+ *  Author: Jake Hayhurst
+ *  Version: 0.0
  */
 
 #ifndef BUILDING_H_
@@ -11,7 +12,9 @@
 
 using namespace std;
 class building{
-
+enum RACE{
+	HUMAN, ELF, ORC, DRYAD, LIZARD_FOLK, GOBLIN
+};
 public:
 
 	building(string);

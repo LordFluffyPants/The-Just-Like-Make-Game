@@ -9,16 +9,22 @@
 #define HEROUNIT_H_
 #include "unit.h"
 using namespace std;
-enum ability{
 
-};
-enum heroName{
-};
+
 class heroUnit :unit {
-public:
 
+enum HERO_NAME{
+};
+enum RACE{
+    HUMAN, ELF, ORC, DRYAD, LIZARD_FOLK, GOBLIN
+};
+
+public:
+	heroUnit(heroName);
+	void castAbility;
 private:
 	heroName name;
+
 };
 
 
