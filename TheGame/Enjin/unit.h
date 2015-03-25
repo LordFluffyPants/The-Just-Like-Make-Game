@@ -14,8 +14,15 @@ using namespace std;
 class unit {
 
 public:
-
-	unit(string name);
+	enum unitType{
+		standardGunner, heavyGunner,specRaceGunner, smallVehUnit, mediumVehUnit,
+		largeVehUnit, raceVehUnit, smallAirUnit, mediumAirUnit, largeAirUnit,
+		raceAirUnit, ultiRaceUnit
+	};
+    enum unitRace{
+		human, elven, orc, dryad, lizardFolk, goblin
+	};
+    unit(unitType unitType, unitRace race);
 	string getName();
 	int getHealth();
 	void setHealth(int);
@@ -27,11 +34,15 @@ public:
 	bool getFlying();
 	string getRace();
 	int getResourceCost();
+	void updateAttackValue();
+	void initUnitValues();
+
 
 
 
 private:
 	int resourceCost;
+    unitType type;
 	string name;
 	int health;
 	int movementMax;
@@ -39,8 +50,8 @@ private:
 	int armor;
 	bool flying;
 	int additionalArmor;
-	string race;
-	void updateAttackValue();
+    unitRace race;
+
 
 
 };
