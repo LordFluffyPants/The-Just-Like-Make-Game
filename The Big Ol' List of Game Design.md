@@ -80,7 +80,7 @@ Ultimate Unit: Fel Demon
 
 
 Orc
-Special Infantry: Berserkers  
+Special Infantry: Berserkers
 Race Vehicle: 
 Race Air :
 Ultimate Unit: War Machine
@@ -99,7 +99,7 @@ Ultimate Unit: Treant of War
 
 Lizard Folk
 Special Infantry: Chameleon Assassins
-Race Vehicle: Dinosaurs
+Race Vehicle: Dinosaur construct
 Race Air : Dragon hawk riders
 Ultimate Unit: Dragon construct
 
