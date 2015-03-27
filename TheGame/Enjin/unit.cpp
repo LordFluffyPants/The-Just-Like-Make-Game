@@ -157,82 +157,88 @@ void unit::initUnitValues(){
 	}
     else if (type == smallAirUnit){
         if (race == human){
-
+            flying = true;
 		}
         else if(race == elven){
-
+            flying = true;
 		}
         else if (race == orc){
-
+            flying = true;
 		}
         else if (race == dryad){
-
+            flying = true;
 		}
         else if (race == lizardFolk){
-
+            flying = true;
 		}
 		else{
 			//This is for the goblin race
+            flying = true;
 		}
 	}
     else if (type == mediumAirUnit){
 		if (race == human){
-
+            flying = true;
 		}
 		else if(race == elven){
-
+            flying = true;
 		}
 		else if (race == orc){
-
-		}
+            flying = true;
+        }
 		else if (race == dryad){
-
+            flying = true;
 		}
 		else if (race == lizardFolk){
-
+            flying = true;
 		}
 		else{
 			//This is for the goblin race
+            flying = true;
 		}
 	}
     else if (type == largeAirUnit){
 		if (race == human){
-
+            flying = true;
 		}
 		else if(race == elven){
-
+            flying = true;
 		}
 		else if (race == orc){
-
+            flying = true;
 		}
 		else if (race == dryad){
-
+            flying = true;
 		}
 		else if (race == lizardFolk){
-
+            flying = true;
 		}
 		else{
 			//This is for the goblin race
+            flying = true;
 		}
 	}
     else if (type == raceAirUnit){
 		//These Race type units will have different stats
 		if (race== human){
-
+            flying = true;
 		}
 		else if(race == elven){
-
+            flying = true;
 		}
 		else if (race == orc){
-
+            flying = true;
 		}
 		else if (race == dryad){
+            flying = true;
 			name = "Aurai Bombers";
 		}
 		else if (race == lizardFolk){
+            flying = true;
 			name = "Dragon Hawk Riders";
 		}
 		else{
+            flying = true;
 			//This is for the goblin race
 		}
 	}
@@ -252,6 +258,7 @@ void unit::initUnitValues(){
 			name = "Treant of War";
 		}
 		else if (race == lizardFolk){
+            flying = true;
 			name = "Dragon Construct";
 		}
 		else{
@@ -261,32 +268,64 @@ void unit::initUnitValues(){
 	}
 }
 
+/** Gets the name of the unit */
 string unit::getName(){
-    return name;
+	return name;
 }
 
+/** Gets the Units Health */
 int unit::getHealth(){
-    return health;
+	return health;
 }
 
+/** sets the units health to the passes in health */
+void unit::setHealth(int pHealth){
+	health = pHealth;
+}
+
+/** Gets the max movement that the unit has */
 int unit::getMovementMax(){
-    return movementMax;
+	return movementMax;
 }
 
+/** Sets the max movement the unit can make to the passed in value */
+void unit::setMovementMax(int mMax){
+	movementMax = mMax;
+}
+
+/** Gets the units attack value */
 double unit::getAttackValue(){
-    return attackValue;
+	return attackValue;
 }
 
+/** Gets the units armor value */
 int unit::getArmor(){
-    return armor;
+	return armor;
 }
 
-bool unit::getFlying(){
-    return flying;
+//TODO implement the update armor method
+void unit::updateArmor(){
+
 }
 
+/** returns true or false depending if the unit is flying or not */
+bool unit::isFlying(){
+	return flying;
+}
+
+/** returns the race of the unit */
+unit::unitRace unit::getRace(){
+	return race;
+}
+
+/** returns the resource cost of the unit */
 int unit::getResourceCost(){
-    return resourceCost;
+	return resourceCost;
+}
+
+//TODO implement the update attack value method */
+void unit::updateAttackValue(){
+
 }
 
 unit::unit(enum unitType pUnitType, enum unitRace pRace){
@@ -297,7 +336,7 @@ unit::unit(enum unitType pUnitType, enum unitRace pRace){
 		movementMax = 0;
 		attackValue = 0;
 		armor = 0;
-		flying = 0;
+		flying = false;
 		additionalArmor = 0;
 		race = pRace;
 		initUnitValues();

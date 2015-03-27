@@ -7,7 +7,7 @@
 
 #ifndef UNIT_H_
 #define UNIT_H_
-#import <string>
+
 
 using namespace std;
 
@@ -31,8 +31,8 @@ public:
 	double getAttackValue();
 	int getArmor();
 	void updateArmor();
-	bool getFlying();
-	string getRace();
+	bool isFlying();
+	unitRace getRace();
 	int getResourceCost();
 	void updateAttackValue();
 	void initUnitValues();
