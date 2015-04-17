@@ -55,7 +55,7 @@ void unit::initUnitValues(){
     else if (type == specRaceGunner){
         //These Race type units will have different stats
 	if (race == human){
-
+            name = "The Last Batallion";
 	}
         else if(race == elven){
 	    name = "Mana Addict";
@@ -137,16 +137,16 @@ void unit::initUnitValues(){
     else if (type == raceVehUnit){
         //These Race type units will have different stats
         if (race == human){
-
+            name = "Panzer Elite";
 	}
         else if(race == elven){
-
+            name = "Fel Cannon";
 	}
         else if (race == orc){
-
+            name = "Electric Disaster";
 	}
         else if (race == dryad){
-
+            name = "Treant Warriors";
 	}
         else if (race == lizardFolk){
 	    name = "Dinosaur Construct";
@@ -222,13 +222,16 @@ void unit::initUnitValues(){
     else if (type == raceAirUnit){
 	//These Race type units will have different stats
 	if (race== human){
+            name = "Humanitys Finiest";
 	    flying = true;
 	}
 	else if(race == elven){
-	    flying = true;
+            name = "Mana Bombers"; 
+            flying = true;
 	}
 	else if (race == orc){
-	    flying = true;
+	    name =  "Warchiefs Finest";
+            flying = true;
 	}
 	else if (race == dryad){
             flying = true;
@@ -248,7 +251,8 @@ void unit::initUnitValues(){
         // inits the values for the ultimate race unit
 	//These Race type units will have different stats
     	if (race == human){
-
+            name = "Battle Cruiser";
+            flying = true;
 	}
 	else if(race == elven){
 	    name = "Fel Deamon";
@@ -344,5 +348,3 @@ unit::unit(enum unitType pUnitType, enum unitRace pRace){
     initUnitValues();
 
 }
-
-
