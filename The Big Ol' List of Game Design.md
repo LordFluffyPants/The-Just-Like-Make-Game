@@ -39,7 +39,7 @@ The overarching setting for the game world is something along the lines of fanta
 Each race will have a specific overarching design idea that spans the technological field. 
 In a general sense the humans will be the “most” technological advanced while the dryads will be the “least” advanced. The reason for the quotation marks is because wile the races will be balanced technological disparity will be an element of fleshing out the game world.  The dryads for example will not have guns and will be more druid like in nature but are able to command the nature around them to do the exact same things as the humans.  This will discussed more in the balance section of the game but as a design perspective technological disparity will be major factor in the development of the six races.
 
-Hey also the commanding general for the Dryads will be a deer. Like an actual deer with a hat on. Doesn't actually talk just bleats at you.
+Hey also the commanding general for the Dryads will be a deer. Like an actual deer with a hat on. Doesn't actually talk just bleats at you.'
 
 
 
@@ -64,8 +64,8 @@ Race air unit
 Human
 
 Special Infantry: 
-Race Vehicle: 
-Race Air :
+Race Vehicle: Panzer Elite 
+Race Air : Humanitys Finest
 Ultimate Unit: 
 
 
@@ -73,16 +73,16 @@ Ultimate Unit:
 
 Elven
 Special Infantry: Mana Addict
-Race Vehicle: 
-Race Air :
+Race Vehicle: Fel Cannon
+Race Air : 
 Ultimate Unit: Fel Demon 
 
 
 
 Orc
 Special Infantry: Berserkers
-Race Vehicle: 
-Race Air :
+Race Vehicle: Electric Desaster
+Race Air : Warchiefs Finest
 Ultimate Unit: War Machine
 
 
@@ -90,7 +90,7 @@ Ultimate Unit: War Machine
 
 Dryads
 Special Infantry: Fel Touched
-Race Vehicle: 
+Race Vehicle: Treant warriors 
 Race Air : Aurai Bombers
 Ultimate Unit: Treant of War
 
@@ -108,8 +108,8 @@ Ultimate Unit: Dragon construct
 
 Goblin
 Special Infantry: Techies
-Race Vehicle: 
-Race Air :
+Race Vehicle: Minecart Bombers
+Race Air : Suicide Gunners
 Ultimate Unit: Crystalline construct 
 
 
