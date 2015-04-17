@@ -61,52 +61,91 @@ Large air unit
 Race air unit
 “Ultimate” Race Unit
 
-Human
 
-Special Infantry: 
+Human
+Standard Gunner: 1st Batallion
+Heavy Gunner: Special Operatives
+Small Vehical: Armored Jeep
+Medium Vehical:
+Large Vehical:
+Small Air:
+Medium Air:
+Large Air: 101 Airborn
+Special Infantry: The Last Batallion 
 Race Vehicle: Panzer Elite 
 Race Air : Humanitys Finest
-Ultimate Unit: 
-
-
+Ultimate Unit: Battle Cruiser
 
 
 Elven
+Standard Gunner: Spellcasters
+Heavy Gunner: Archmage
+Small Vehical:
+Medium Vehical:
+Large Vehical:
+Small Air:
+Medium Air:
+Large Air:
 Special Infantry: Mana Addict
 Race Vehicle: Fel Cannon
-Race Air : 
+Race Air : Mana Bombers
 Ultimate Unit: Fel Demon 
 
 
-
 Orc
+Standard Gunner: Zap Battalion
+Heavy Gunner: Magma Slingers
+Small Vehical:
+Medium Vehical:
+Large Vehical:
+Small Air:
+Medium Air:
+Large Air:
 Special Infantry: Berserkers
-Race Vehicle: Electric Desaster
+Race Vehicle: Electric Disaster
 Race Air : Warchiefs Finest
 Ultimate Unit: War Machine
 
 
-
-
 Dryads
+Standard Gunner:
+Heavy Gunner:
+Small Vehical:
+Medium Vehical:
+Large Vehical:
+Small Air:
+Medium Air:
+Large Air:
 Special Infantry: Fel Touched
 Race Vehicle: Treant warriors 
 Race Air : Aurai Bombers
 Ultimate Unit: Treant of War
 
 
-
-
 Lizard Folk
+Standard Gunner:
+Heavy Gunner:
+Small Vehical:
+Medium Vehical:
+Large Vehical:
+Small Air:
+Medium Air:
+Large Air:
 Special Infantry: Chameleon Assassins
 Race Vehicle: Dinosaur construct
 Race Air : Dragon hawk riders
 Ultimate Unit: Dragon construct
 
 
-
-
 Goblin
+Standard Gunner: 
+Heavy Gunner: Crystalline Miners
+Small Vehical:
+Medium Vehical:
+Large Vehical:
+Small Air:
+Medium Air:
+Large Air:
 Special Infantry: Techies
 Race Vehicle: Minecart Bombers
 Race Air : Suicide Gunners
