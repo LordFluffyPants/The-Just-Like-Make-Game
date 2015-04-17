@@ -13,23 +13,21 @@ using namespace std;
 class map{
 
 public:
-	map();
-	map(char**);
-	char getSelectedLandTile();
-	char ** getCurrentMap();
-	string getName();
+    map();
+    map(char**);
+    char getSelectedLandTile();
+    char ** getCurrentMap();
+    string getName();
 
 
 
 
 private:
-	string name;
-	void populateCurrentMap();
-	void updateCurrentMap();
-	void populateUnitMap();
-	void updateUnitMap();
-
-
+    string name;
+    void populateCurrentMap();
+    void updateCurrentMap();
+    void populateUnitMap();
+    void updateUnitMap();
 };
 
 

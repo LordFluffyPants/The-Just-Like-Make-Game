@@ -14,23 +14,21 @@ class building{
 
 public:
 
-	building(string);
-	int getAdditionalArmor();
-	string* returnUnitList();
-	int getHealth();
-	bool isFullyBuilt();
-	string getOwner();
+    building(string);
+    int getAdditionalArmor();
+    string* returnUnitList();
+    int getHealth();
+    bool isFullyBuilt();
+    string getOwner();
 
 private:
-	string name;
-	unit* unitList;
-	int additionalArmor;
-	int health;
-	bool fullyBuilt;
-	void checkHQLevel();
-	string owner;
-
-
+    string name;
+    unit* unitList;
+    int additionalArmor;
+    int health;
+    bool fullyBuilt;
+    void checkHQLevel();
+    string owner;
 };
 
 

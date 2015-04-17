@@ -12,13 +12,15 @@ using namespace std;
 enum ability{
 
 };
+
 enum heroName{
 };
+
 class heroUnit :unit {
 public:
 
 private:
-	heroName name;
+    heroName name;
 };
 
 

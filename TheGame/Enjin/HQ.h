@@ -10,18 +10,18 @@
 #include "unit.h"
 using namespace std;
 enum level{
-	ONE = 1,TWO = 2,THREE = 3
+    ONE = 1,TWO = 2,THREE = 3
 };
+
 class HQ{
 
 public:
 
 
 private:
-	string owner;
-	unit * unitList;
-	level HQLevel;
-
+    string owner;
+    unit * unitList;
+    level HQLevel;
 };
 
 
