@@ -6,15 +6,20 @@ Halflings?
 
 Elven Subraces:
 
+
 Orc Subraces:
-Greenskin - 
-Paleskin - 
+//Red Orcs, Green Orcs, Pale Orcs 
 
 Dryad Subraces:
-Nymphs - 
-Centaurs - 
+Nymphs -  
+Aurai - 
+ 
+
 
 Lizzard Folk Subraces:
+Chameleons - 
+Komodos - 
+Dragonkin - 
 
 
 Goblins Subraces:
