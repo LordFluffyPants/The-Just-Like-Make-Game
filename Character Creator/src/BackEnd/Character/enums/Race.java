@@ -9,5 +9,5 @@ public enum Race {
     ORC,
     DRYADS,
     LIZARD_FOLK,
-    GOBLIN;
+    GOBLIN
 }

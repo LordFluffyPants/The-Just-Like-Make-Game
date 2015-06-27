@@ -1,4 +1,4 @@
-package BackEnd;
+package BackEnd.Character.calculators;
 
 import BackEnd.Character.enums.Class;
 import BackEnd.Character.enums.Armor;
@@ -64,22 +64,6 @@ public class CalculateValues {
 
     public int getWisdom() {
         return wisdom;
-    }
-
-    public void generateValues(Races race, Class charClass, Armor AC)
-    {
-        //TODO implement race and class values (May not be a ENUM)
-        health += Dice.getInstance().rollD6();
-        stamina += Dice.getInstance().rollD20();
-        strength += Dice.getInstance().rollD20();
-        intellect += Dice.getInstance().rollD20();
-        dex += Dice.getInstance().rollD20();
-        speed += Dice.getInstance().rollD6();
-        will += Dice.getInstance().rollD6();
-        wisdom+= Dice.getInstance().rollD6();
-        fortitude += Dice.getInstance().rollD6();
-//        armor += ;
-
     }
 
 }
