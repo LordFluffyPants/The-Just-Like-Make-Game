@@ -1,0 +1,7 @@
+Race,Health,Stamina,Strength,Intellect,Dexterity,Speed,Will,Fort
+Human,3,0,-1,0,2,0,2,0,-1
+Elven,-2,5,0,-1,-1,4,0,0,0
+Orc,0,-1,4,4,-2,0,0,0,0
+Dryads,4,4,-3,0,0,0,0,0,0
+Lizard Folk,-2,3,0,2,0,-3,0,3,2
+Goblin,-3,1,0,5,0,5,0,-3,0
