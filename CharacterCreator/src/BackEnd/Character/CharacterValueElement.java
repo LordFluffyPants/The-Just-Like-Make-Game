@@ -4,7 +4,7 @@ package BackEnd.Character;
  * Created by Jake on 6/27/2015.
  */
 public class CharacterValueElement {
-    private int health, stamina, strength,intellect,dex, speed, will, wisdom, fortitude, armorValue;
+    private int health, stamina, strength,intellect,dex, speed, will, wisdom, fortitude;
     private String race;
 
     public CharacterValueElement()
@@ -82,14 +82,6 @@ public class CharacterValueElement {
 
     public void setFortitude(int fortitude) {
         this.fortitude = fortitude;
-    }
-
-    public int getArmorValue() {
-        return armorValue;
-    }
-
-    public void setArmorValue(int armorValue) {
-        this.armorValue = armorValue;
     }
 
     public String getRace() {
