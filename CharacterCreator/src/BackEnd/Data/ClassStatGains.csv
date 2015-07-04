@@ -1,1 +1,11 @@
-"Class","Health","Stamina","Strength","Intellect","Dexterity","Speed","Will","Fort"
+Class,Health,Stamina,Strength,Intellect,Dexterity,Speed,Will,Fort
+Berserker,0,0,0,0,0,0,0,0
+Inquisitor,0,0,0,0,0,0,0,0
+Engineer,0,0,0,0,0,0,0,0
+Cabalist,0,0,0,0,0,0,0,0
+Illusionist,0,0,0,0,0,0,0,0
+Fencer,0,0,0,0,0,0,0,0
+Shaman,0,0,0,0,0,0,0,0
+Vagabond,0,0,0,0,0,0,0,0
+Necromancer,0,0,0,0,0,0,0,0
+Scout,0,0,0,0,0,0,0,0
