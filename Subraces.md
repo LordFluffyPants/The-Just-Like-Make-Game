@@ -1,6 +1,6 @@
 Human Subraces:
-Dwarfs - 
-Gnomes - 
+Dwarfs - The proud the dwarfs stand "tall" and proud. Constantly battling threats that would take away their homeland dwarfs are adept in fitting the best weapons and armor for themselves. Dwarfs are able to either equip two armors or two weapons (They are allowed to basic attack twice per round)
+Gnomes - The gnomes are considered the classiest of the human empire. What they don't make up in size they make up in diplomacy. Gnomes are allowed to roll again on any saving roll once per combat or conversation.
 Halflings?
 
 
@@ -8,7 +8,9 @@ Elven Subraces:
 
 
 Orc Subraces:
-//Red Orcs, Green Orcs, Pale Orcs 
+Sky Skin - 
+Grass Skin - 
+Pale Skin - 
 
 Dryad Subraces:
 Nymphs -  
