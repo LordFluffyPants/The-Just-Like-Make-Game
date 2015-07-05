@@ -1,28 +1,32 @@
 Human Subraces:
-Dwarfs - The proud the dwarfs stand "tall" and proud. Constantly battling threats that would take away their homeland dwarfs are adept in fitting the best weapons and armor for themselves. Dwarfs are able to either equip two armors or two weapons (They are allowed to basic attack twice per round)
+Dwarfs - The proud the dwarfs stand "tall" and proud. Constantly battling threats that would take away their homeland dwarfs are adept in fitting the best weapons and armor for themselves. Dwarfs are able to either equip two armors or two weapons (They are allowed to basic attack twice per round if you equip two weapons)
 Gnomes - The gnomes are considered the classiest of the human empire. What they don't make up in size they make up in diplomacy. Gnomes are allowed to roll again on any saving roll once per combat or conversation.
-Halflings?
+Stone Skin - Built in armor
 
 
 Elven Subraces:
-
+Fel Touched -
+Aethrial - almost torn into the mana well
+Highborne - 
 
 Orc Subraces:
-Sky Skin - 
-Grass Skin - 
-Pale Skin - 
+Sea Orcs - underwater water pyramids
+Pale Orcs - smaller skinner pale orcs study what they have
+Worcs - Study the art of war
 
 Dryad Subraces:
-Nymphs -  
-Aurai - 
+Nymphs - All female
+Aurai - All male
+Wildling - Anthropomophic animals
  
 
-
 Lizzard Folk Subraces:
-Chameleons - 
-Komodos - 
-Dragonkin - 
+Chameleons - drop combat invis
+Komodos - assholes
+Dragonkin - drgon fire
 
 
 Goblins Subraces:
-Crystal Gobos - To be closer to the crystals, goblins have ripped off their limbs. Years after these goblins stopped, because it was interfering with their minning abilities, through the vibrational requency and poisoning of the crystals these goblins have become half goblin half crystal. These goblins are reveared because they are part crystal but are also hated because they are "tainting the crystals". 
+Crystal Goblins -
+Hobogobo - hobgoblins
+Geo Goblin - 
