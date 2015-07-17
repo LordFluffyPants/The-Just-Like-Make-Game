@@ -10,9 +10,9 @@ Aethrial - almost torn into the mana well
 Highborne - 
 
 Orc Subraces:
-Sea Orcs - underwater water pyramids
-Pale Orcs - smaller skinner pale orcs study what they have
-Worcs - The Worcs study the art of war and live and breed for the purpose of studying combat. Unlike the other orcs their domain is the battlefield, that is where they live and that is where they will die. Because of this Worcs know all races and lesser races battle tactics (Once per the player of the worc can ask the GM for the general strategy and information about any enemy)
+Sea Orcs (SORCS) - underwater water pyramids
+Pale Orcs (PORCS)- smaller skinner pale orcs study what they have
+War Orcs (WORCS) - The Worcs study the art of war and live and breed for the purpose of studying combat. Unlike the other orcs their domain is the battlefield, that is where they live and that is where they will die. Because of this Worcs know all races and lesser races battle tactics (Once per the player of the worc can ask the GM for the general strategy and information about any enemy)
 
 Dryad Subraces:
 Nymphs - All female
