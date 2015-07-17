@@ -1,14 +1,10 @@
 package BackEnd.Character.calculators;
 
 import BackEnd.Character.*;
-import BackEnd.Character.enums.Class;
-import BackEnd.Character.enums.Armor;
 import BackEnd.Data.ImportManager;
 import BackEnd.Dice;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.PriorityQueue;
 
 /**
  * Created by Jake on 6/19/2015.
@@ -139,6 +135,12 @@ public class CalculateValues {
         wisdom += element.getWisdom();
         fortitude += element.getFortitude();
     }
+
+    public void calculateAllArmorStats(ArmorValueElement element)
+    {
+        armor += element.getArmorValue();
+    }
+
     public int getHealth()
     {
         return health;
