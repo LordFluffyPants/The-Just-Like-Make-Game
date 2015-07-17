@@ -55,84 +55,89 @@ public class CalculateValues {
         switch (race)
         {
             case "Human":
-                CharacterValueElement human = characterValueList.get(0);
-                health += human.getHealth();
-                stamina += human.getStamina();
-                strength += human.getStrength();
-                intellect += human.getIntellect();
-                dex += human.getDex();
-                will += human.getWill();
-                wisdom += human.getWisdom();
-                fortitude += human.getFortitude();
+                calculateAllRaceStats(characterValueList.get(0));
                 break;
 
             case "Elven":
-                CharacterValueElement elven = characterValueList.get(1);
-                health += elven.getHealth();
-                stamina += elven.getStamina();
-                strength += elven.getStrength();
-                intellect += elven.getIntellect();
-                dex += elven.getDex();
-                will += elven.getWill();
-                wisdom += elven.getWisdom();
-                fortitude += elven.getFortitude();
+                calculateAllRaceStats(characterValueList.get(1));
                 break;
 
             case "Orc":
-                CharacterValueElement orc = characterValueList.get(2);
-                health += orc.getHealth();
-                stamina += orc.getStamina();
-                strength += orc.getStrength();
-                intellect += orc.getIntellect();
-                dex += orc.getDex();
-                will += orc.getWill();
-                wisdom += orc.getWisdom();
-                fortitude += orc.getFortitude();
+                calculateAllRaceStats(characterValueList.get(2));
                 break;
 
             case "Dryads":
-                CharacterValueElement dryad = characterValueList.get(3);
-                health += dryad.getHealth();
-                stamina += dryad.getStamina();
-                strength += dryad.getStrength();
-                intellect += dryad.getIntellect();
-                dex += dryad.getDex();
-                will += dryad.getWill();
-                wisdom += dryad.getWisdom();
-                fortitude += dryad.getFortitude();
+                calculateAllRaceStats(characterValueList.get(3));
                 break;
 
             case "Lizard Folk":
-                CharacterValueElement lizardFolk = characterValueList.get(4);
-                health += lizardFolk.getHealth();
-                stamina += lizardFolk.getStamina();
-                strength += lizardFolk.getStrength();
-                intellect += lizardFolk.getIntellect();
-                dex += lizardFolk.getDex();
-                will += lizardFolk.getWill();
-                wisdom += lizardFolk.getWisdom();
-                fortitude += lizardFolk.getFortitude();
+                calculateAllRaceStats(characterValueList.get(4));
                 break;
 
             case "Goblin":
-                CharacterValueElement goblin = characterValueList.get(5);
-                health += goblin.getHealth();
-                stamina += goblin.getStamina();
-                strength += goblin.getStrength();
-                intellect += goblin.getIntellect();
-                dex += goblin.getDex();
-                will += goblin.getWill();
-                wisdom += goblin.getWisdom();
-                fortitude += goblin.getFortitude();
+                calculateAllRaceStats(characterValueList.get(5));
                 break;
         }
 
         //starting the additional class values
         switch (aClass)
         {
-            //TODO implement class values
+            case "Berserker":
+                calculateAllClassStats(classValueList.get(0));
+                break;
+            case "Inquisitor":
+                calculateAllClassStats(classValueList.get(1));
+                break;
+            case "Engineer":
+                calculateAllClassStats(classValueList.get(2));
+                break;
+            case "Cabalist":
+                calculateAllClassStats(classValueList.get(3));
+                break;
+            case "Illusionist":
+                calculateAllClassStats(classValueList.get(4));
+                break;
+            case "Fencer":
+                calculateAllClassStats(classValueList.get(5));
+                break;
+            case "Shaman":
+                calculateAllClassStats(classValueList.get(6));
+                break;
+            case "Vagabond":
+                calculateAllClassStats(classValueList.get(7));
+                break;
+            case "Necromancer":
+                calculateAllClassStats(classValueList.get(8));
+                break;
+            case "Scout":
+                calculateAllClassStats(classValueList.get(9));
+                break;
         }
 
+    }
+
+    public void calculateAllRaceStats(CharacterValueElement element)
+    {
+        health += element.getHealth();
+        stamina += element.getStamina();
+        strength += element.getStrength();
+        intellect += element.getIntellect();
+        dex += element.getDex();
+        will += element.getWill();
+        wisdom += element.getWisdom();
+        fortitude += element.getFortitude();
+    }
+
+    public void calculateAllClassStats(ClassValueElement element)
+    {
+        health += element.getHealth();
+        stamina += element.getStamina();
+        strength += element.getStrength();
+        intellect += element.getIntellect();
+        dex += element.getDex();
+        will += element.getWill();
+        wisdom += element.getWisdom();
+        fortitude += element.getFortitude();
     }
     public int getHealth()
     {
