@@ -1,9 +1,5 @@
 package BackEnd.Character;
 
-import BackEnd.Character.calculators.CalculateValues;
-import BackEnd.Character.enums.*;
-import BackEnd.Character.enums.Class;
-
 /**
  * Created by Jake on 6/27/2015.
  */
