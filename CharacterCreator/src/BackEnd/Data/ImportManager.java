@@ -38,8 +38,12 @@ public class ImportManager {
     {
         try
         {
+            String path = System.getProperty("user.dir");
+            path += "/src/BackEnd/Data/CharacterStatGains.csv";
+            //The URL implementation seems to only work for linux and not windows ATM
+            //Creating the systemPath seems to fix this
             URL url = getClass().getResource("CharacterStatGains.csv");
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(url.getPath()));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
             String line;
             boolean headerPassed = false;
             while ((line = bufferedReader.readLine()) != null)

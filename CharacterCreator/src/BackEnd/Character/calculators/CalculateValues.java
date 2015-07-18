@@ -34,15 +34,15 @@ public class CalculateValues {
 
     private void generateValues(String race, String aClass, String armor)
     {
-        health += Dice.getInstance().rollD20();
-        stamina += Dice.getInstance().rollD20();
-        strength += Dice.getInstance().rollD20();
-        intellect += Dice.getInstance().rollD20();
-        dex += Dice.getInstance().rollD20();
-        //We dont do bonus rolls on speed
-        will += Dice.getInstance().rollD6();
-        wisdom += Dice.getInstance().rollD6();
-        fortitude += Dice.getInstance().rollD6();
+//        health += Dice.getInstance().rollD20();
+//        stamina += Dice.getInstance().rollD20();
+//        strength += Dice.getInstance().rollD20();
+//        intellect += Dice.getInstance().rollD20();
+//        dex += Dice.getInstance().rollD20();
+//        //We dont do bonus rolls on speed
+//        will += Dice.getInstance().rollD6();
+//        wisdom += Dice.getInstance().rollD6();
+//        fortitude += Dice.getInstance().rollD6();
 
         //Starting armor generation switch
 
