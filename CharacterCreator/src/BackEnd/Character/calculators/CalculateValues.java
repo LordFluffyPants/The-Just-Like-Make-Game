@@ -46,7 +46,6 @@ public class CalculateValues {
 
         //Starting armor generation switch
 
-
         //Starting additional race values
         switch (race)
         {
@@ -119,6 +118,7 @@ public class CalculateValues {
         strength += element.getStrength();
         intellect += element.getIntellect();
         dex += element.getDex();
+        speed += element.getSpeed();
         will += element.getWill();
         wisdom += element.getWisdom();
         fortitude += element.getFortitude();
@@ -131,6 +131,7 @@ public class CalculateValues {
         strength += element.getStrength();
         intellect += element.getIntellect();
         dex += element.getDex();
+        speed += element.getSpeed();
         will += element.getWill();
         wisdom += element.getWisdom();
         fortitude += element.getFortitude();

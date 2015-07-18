@@ -60,7 +60,8 @@ public class ImportManager {
                     element.setDex(Integer.parseInt(mappingLine[5]));
                     element.setSpeed(Integer.parseInt(mappingLine[6]));
                     element.setWill(Integer.parseInt(mappingLine[7]));
-                    element.setFortitude(Integer.parseInt(mappingLine[8]));
+                    element.setWisdom(Integer.parseInt(mappingLine[8]));
+                    element.setFortitude(Integer.parseInt(mappingLine[9]));
                     characterList.add(element);
                 }
                 headerPassed = true;
@@ -80,8 +81,9 @@ public class ImportManager {
     {
         try
         {
-            URL url = getClass().getResource("ClassStatGains.csv");
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(url.getPath()));
+            String path = System.getProperty("user.dir");
+            path += "/src/BackEnd/Data/ClassStatGains.csv";
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
             String line;
             boolean headerPassed = false;
             while ((line = bufferedReader.readLine()) != null)
@@ -98,7 +100,8 @@ public class ImportManager {
                     element.setDex(Integer.parseInt(mappingLine[5]));
                     element.setSpeed(Integer.parseInt(mappingLine[6]));
                     element.setWill(Integer.parseInt(mappingLine[7]));
-                    element.setFortitude(Integer.parseInt(mappingLine[8]));
+                    element.setWisdom(Integer.parseInt((mappingLine[8])));
+                    element.setFortitude(Integer.parseInt(mappingLine[9]));
                     classList.add(element);
                 }
                 headerPassed = true;
@@ -118,8 +121,9 @@ public class ImportManager {
     {
         try
         {
-            URL url = getClass().getResource("ArmorStatGains.csv");
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(url.getPath()));
+            String path = System.getProperty("user.dir");
+            path += "/src/BackEnd/Data/ArmorStatGains.csv";
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
             String line;
             boolean headerPassed = false;
             while ((line = bufferedReader.readLine()) != null)

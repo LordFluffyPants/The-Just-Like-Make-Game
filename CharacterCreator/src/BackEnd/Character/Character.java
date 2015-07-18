@@ -1,5 +1,7 @@
 package BackEnd.Character;
 
+import BackEnd.Character.calculators.CalculateValues;
+
 /**
  * Created by Jake on 6/27/2015.
  */
@@ -13,13 +15,36 @@ public class Character {
         this.race = race;
         this.aClass = aClass;
         this.armor = armor;
-//        CalculateValues;
-
+        calculateValues();
     }
 
     public Character()
     {
+        race = "Human";
+        aClass = "Berserker";
+        armor = "Simple Armor";
+        calculateValues();
 
+    }
+
+    private void calculateValues()
+    {
+        CalculateValues calculator = new CalculateValues(race,aClass,armor);
+        health = calculator.getHealth();
+        stamina = calculator.getStamina();
+        strength = calculator.getStrength();
+        intellect = calculator.getIntellect();
+        dex = calculator.getDex();
+        speed = calculator.getSpeed();
+        will = calculator.getWill();
+        wisdom = calculator.getWisdom();
+        fortitude = calculator.getFortitude();
+        armorValue = calculator.getArmor();
+    }
+
+    public void reCalculateValues()
+    {
+        calculateValues();
     }
 
 
