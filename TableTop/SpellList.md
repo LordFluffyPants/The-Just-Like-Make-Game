@@ -4,6 +4,8 @@ Berserker:
 Inquisitor:
 	Holy Judgement: (Dmg spell)
 
+	Blessing of the Sacred: (Healing spell)
+
 
 Engineer:
 	Construct Turret: (dps pet spell)
@@ -25,6 +27,8 @@ Shaman:
 
 Vagabond:
 	Maundering strike: (dmg)
+
+	Hobo Stench: (dmg aura)
 
 Necromancer:
 	Blessing of Warleck: (buff)
