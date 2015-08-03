@@ -1,11 +1,18 @@
+Each Class Should have an equal number of spells
+The Current Target for each class is : 5
+
+
 Berserker:
 	Disarming Shout: (disarm)
+
+	Demented Slash: (dmg)
 
 Inquisitor:
 	Holy Judgement: (Dmg spell)
 
 	Blessing of the Sacred: (Healing spell)
 
+	Humbling Intuition: (Buff)
 
 Engineer:
 	Construct Turret: (dps pet spell)
@@ -14,13 +21,14 @@ Cabalist:
 	Fireblood Pact: (buff)
 
 Illusionist:
-	Cerebral unhinge:
+	Cerebral unhinge: (Debuff)
 
 Fencer:
 	Parry: (counter)
 
 	Fancy Pants Maneuver: (dmg)
 
+	Astounding Reverse: (Roll Save)
 
 Shaman:
 	Commune Spirits: (pet spell)
