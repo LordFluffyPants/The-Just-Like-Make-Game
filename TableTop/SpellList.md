@@ -23,6 +23,10 @@ Cabalist:
 Illusionist:
 	Cerebral unhinge: (Debuff)
 
+	Mirror Image: (non dmg pet)
+
+	Spurious Potential: (Buff)(buff to other players pertaining to attacking)
+
 Fencer:
 	Parry: (counter)
 
