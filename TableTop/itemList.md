@@ -1,10 +1,12 @@
 Treasure:
-	Bovine Enragement:
-		Some of the cows in the land have been known to throw fits of rage leaving entire cities destroyed. Although no reason is known why the cows do this one thing is for sertain, don't get in their way. A player holding this treasure will deal 2x damage but will fail all saving rolls (this includes armor rolls as well)
+	Bovine Amulet:
+		Some of the cows in the land have been known to throw fits of rage leaving entire cities destroyed. Although no reason is known why the cows do this one thing is for sertain, don't get in their way. A player holding this amulet will deal 2x damage but will fail all saving rolls (this includes armor rolls as well)
 	My Mixtape:
 		A small leather bound journal slightyly chard titled: My Mixtape. Reading the journal will instantly kill the reader for it is just too hot and deal massive fire damage in a radius around the reader
 	Shday's Hoofmaker:
 		Deals 5 damage to the target and replaces their feet with hooves
+	Mystical Box of Nothing:
+		This box just disintegrates anything that is put in it that will fit. When the item is disintegrated another item, that can fit in the box, will replace it.
 
 
 Weapon:
@@ -16,6 +18,13 @@ Weapon:
 		A simple sword standard issue for disposable soilders. Deal 2 damage
 	Walking Staff:
 		A staff thay most poor wizards stole from older men to channel their magic. Deal 1 damage
+	Simple Wrench:
+		A wrench that repairs most mechanical problems, but can also be used as a blunt object. Deal 2 damage
+
+
+	Steve's Walking Cane:
+		A cane that was used by the great and all powerful Steve. Your Spells cost 2 less stamina. Deal 2 damage.
+
 
 Armor:
 	Cloth Robes:
